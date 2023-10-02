@@ -1,5 +1,5 @@
-# Stage WordPress
-<!-- version: v1.0.4 -->
+# Stage WordPress@EPFL
+<!-- version: v1.1.0 -->
 ## À propos
 
 Cette fiche de stage s’intègre dans le catalogue de stage proposé aux 
@@ -9,28 +9,31 @@ apprenti·e·s et stagiaires à l’EPFL.
 | Nom                    | WordPress                                           |
 | ---------------------- | --------------------------------------------------- |
 | Type de stage          | Formation                                           |
-| Durée du stage         | 5 jours                                             |
+| Durée du stage         | 2 à 5 jours*                                        |
 | Unité                  | ISAS-FSD                                            |
-| Public                 | Tous (apprentis et stagiaire)                       |
+| Public                 | Tous (apprentis et stagiaires)                      |
 | Obligatoire            | Filière développement d’application                 |
 | Nombre de participants | 1                                                   |
 | Matériel               | Ordinateur portable                                 |
 | Prérequis              | Ligne de commande, serveurs Web, Linux un plus      |
 | Mots-clés              | WordPress, SSH, CLI, Linux, Apache, MariaDB, Docker |
 
+\* _La durée du stage peut varier en fonction des connaissances préalables du 
+stagiaire et de la manière dont les différentes tâches sont approfondies._
+
 > **Note**
-> La dernière version de ce document est accessible via
-> <https://go.epfl.ch/stage-WP>. Accéder à sa version électronique
-> permet de suivre les liens. Vous pouvez également proposer des
-> [modifications](https://github.com/ponsfrilus/fiche-de-stage-WordPress/pulls)
-> ou laisser des
-> [commentaires](https://github.com/ponsfrilus/fiche-de-stage-WordPress/issues/new).
+> La version la plus récente de ce document est disponible sur 
+> https://go.epfl.ch/stage-WP. Accéder à sa version électronique vous permettra 
+> de suivre les liens, suggérer des [modifications] ou laisser des
+> [commentaires]. Vous pouvez également ajouter une ⭐ au repo pour faire 
+> plaisir aux contributeurs :)
+
 
 ## Description du stage
 
 * Découvrir le CMS [WordPress] : installation, configuration, utilisation et
   développement ;
-* Apprendre comment déployer et mettre en poduction un site WordPress ;
+* Apprendre comment déployer et mettre en production un site WordPress ;
 * Mettre en place un kit de développement WordPress avec [Docker] ;
 * Observer et discuter de la pile technologique mise en place à l’EPFL pour les 
   sites WordPress.
@@ -335,11 +338,12 @@ décrire la pile technologique utilisée pour le gérer.
  
 Le premier site Internet de l’École Polytechnique Fédérale de Lausanne a vu le
 jour en 1997 :  
-![Premier site Internet de l'EPFL, en 1997](./img/1997.png)
+![Premier site Internet de l’EPFL, en 1997](./img/1997.png)
 
-Tout au long des années et suivant l’évolution du Web, différentes versions ont
-vu le jour ([1998], [2004], [2007], [2010], [2014]) pour finalement utiliser
-WordPress de [2019] jusqu’à ce jour.
+Tout au long des années, suivant l’évolution du Web et faisant recours a
+divers systèmes de gestion de contenu[^2], différentes versions du site
+Internet de l’EPFL ont vu le jour ([1998], [2004], [2007], [2010], [2014]) pour
+finalement adopter WordPress en [2019].
 
 
 ## Volumétrie
@@ -440,7 +444,7 @@ L’approche qui a été mise en place pour la création de la plateforme des si
 WordPress de l’école se veut respectueuse de ces deux méthodologies.
 
 
-### Code Open Source
+### Code opensource
 
 Enfin et surtout, la totalité du code utilisée sur la plateforme WordPress de 
 l’EPFL est disponible sur GitHub :
@@ -481,7 +485,7 @@ document**.
 
 Votre document doit mentionner 3 alternatives à WordPress ; si pour une
 raison quelconque l’utilisation de Wordpress n’est pas possible, quels CMS
-pourraient-on utiliser. Ou, en d’autres termes, quels sont les concurrents à
+pourraient-on utiliser ? Ou, en d’autres termes, quels sont les concurrents à
 WordPress ?
 
 Le fait que WordPress soit un logiciel libre et gratuit est intéressant. Qui
@@ -491,7 +495,7 @@ pas déjà traités.
 
 WordPress est très utilisé, pouvez-vous citez des sites connus qui l’utilise ?
 
-- [ ] J’ai mentionné 3 alternatives à WordPress dans mon document
+- [ ] J’ai mentionné au moins 3 alternatives à WordPress dans mon document
 - [ ] Je parle de la licence, de la gratuité et du modèle commercial
 - [ ] J’ai mentionné des sites connus qui l’utilise
 
@@ -499,7 +503,8 @@ WordPress est très utilisé, pouvez-vous citez des sites connus qui l’utilise
 ## Conclusion
 
 C’est le moment d’ajouter la conclusion à votre rapport. La conclusion doit
-traiter au moins des points suivants :
+traiter au moins des points suivants, permettant de faire une synthèse sur le 
+tavail que vous avez fournit durant le stage :
 
  * Les avantages et inconvénients de WordPress ;
  * WordPress est-il un bon choix pour les sites de l’EPFL ;
@@ -514,28 +519,36 @@ traiter au moins des points suivants :
 
 # Envoi final
 
-Remplissez le rapport de stage (disponible sur le [site du canton de
-vaud](https://www.vd.ch/fileadmin/user_upload/themes/formation/orientation/fichiers_pdf/apprentissage/rapp_stage_stag.pdf)
-ou en [version web](https://azecko.github.io/rapport-de-stage/)) et sauvez le
-en PDF, avec comme nom `Stage_WP_ISAS-FSD_YYYY-MM_Évaluation_Prénom_Nom.pdf`.
-Relisez votre document pour vérifier l’orthographe, la
-mise en page, etc. puis générez un PDF, avec comme nom
+Relisez attentivement votre document pour vérifier l’orthographe, la mise en
+page, la qualité de vos procédure, etc. puis générez un PDF (par exemple en
+utilisant [Pandoc] si vous l'avez écrit au format [Markdown]), avec comme nom
 `Stage_WP_ISAS-FSD_YYYY-MM_Rapport_Prénom_Nom.pdf`.
 
+Avant de l’envoyer à personne encadrant votre stage et à vos formateurs et
+formatrices, renseignez-vous pour savoir s’il est nécessaire de remplir un
+rapport de stage. Le cas échéant, le rapport de stage est disponible sur le
+[site du canton de vaud](https://www.vd.ch/fileadmin/user_upload/themes/formation/orientation/fichiers_pdf/apprentissage/rapp_stage_stag.pdf) ou en [version web](https://azecko.github.io/rapport-de-stage/)).
+Une fois complété, sauvez-le en PDF, avec comme nom
+`Stage_WP_ISAS-FSD_YYYY-MM_Évaluation_Prénom_Nom.pdf`.
+
+Vous pouvez maintenant écrire le mail de fin de stage avec les documents
+adéquats en attachement. Pensez à communiquer les éventuels liens nécessaires
+pour accéder à votre document en ligne ou à votre dépôt Git.
+
 - [ ] J’ai remplis l’évaluation (rapport de stage) et j’en ai fait un PDF
-- [ ] J’ai créé un PDF basé sur ma documentation
+- [ ] J’ai créé un PDF basé sur ma documentation et l'ai nommé correctement
 - [ ] J’ai envoyé par email, aux personnes responsables du stage et à mes 
-      formateur·trice·s, mes documents
+      formateur·trice·s, tous mes documents
+
 
 ---
 
 > **Note**
-> La dernière version de ce document est accessible via
-> <https://go.epfl.ch/stage-WP>. Accéder à sa version électronique
-> permet de suivre les liens. Vous pouvez également proposer des
-> [modifications](https://github.com/ponsfrilus/fiche-de-stage-WordPress/pulls)
-> ou laisser des
-> [commentaires](https://github.com/ponsfrilus/fiche-de-stage-WordPress/issues/new).
+> La version la plus récente de ce document est disponible sur 
+> https://go.epfl.ch/stage-WP. Accéder à sa version électronique vous permettra 
+> de suivre les liens, suggérer des [modifications] ou laisser des
+> [commentaires]. Vous pouvez également ajouter une ⭐ au repo pour faire 
+> plaisir aux contributeurs :)
 
 <!-- Faire un test de controle de connaissances ? -->
 
@@ -561,6 +574,9 @@ mise en page, etc. puis générez un PDF, avec comme nom
 [Keybase]: https://fr.wikipedia.org/wiki/Keybase
 [DevOps]: https://fr.wikipedia.org/wiki/Devops
 [12 facteurs]: https://12factor.net/fr/
+[Pandoc]: https://pandoc.org
+[modifications]: https://github.com/ponsfrilus/fiche-de-stage-WordPress/pulls
+[commentaires]: https://github.com/ponsfrilus/fiche-de-stage-WordPress/issues/new
 
 [1998]: ./img/1998.png
 [2004]: ./img/2004.png
@@ -571,5 +587,7 @@ mise en page, etc. puis générez un PDF, avec comme nom
 
 [^1]: Par exemple en proposant <https://www.virtuozzo.com>,
       <https://www.plesk.com/> ou <https://cpanel.net/>
+[^2]: Dont Jahia (<https://www.jahia.com>)
+
 
 [//]: # `export VERSION=$(sed -n -e 's/<!-- version:\s\(.*\)\s-->/\1/p' README.md); pandoc README.md --pdf-engine=xelatex --variable urlcolor=cyan -V papersize:a4paper -V geometry:margin=2cm -o $(date +"%Y-%m-%d")_Stage_WordPress_ISAS-FSD_${VERSION}.pdf && xpdf $(date +"%Y-%m-%d")_Stage_WordPress_ISAS-FSD_${VERSION}.pdf`
