@@ -65,7 +65,7 @@ format des fichiers README sur GitHub.
 > un dépôt [Git] pour votre document et les différents fichiers dont vous
 > pourriez avoir besoin lors de ce stage.
 
-- [ ] J’ai un dossier avec mon document prêt
+- [x] J’ai un dossier avec mon document prêt
 
 
 # Première partie : à propos de WordPress
