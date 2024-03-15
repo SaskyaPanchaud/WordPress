@@ -106,12 +106,12 @@ question : « De quoi WordPress a-t-il besoin pour fonctionner ? ».
 Avant d’aller plus loin, transmettez votre document à la personne encadrant le 
 stage et discutez de votre installation avec elle.
 
-- [ ] La procédure d’installation est validée par l’encadrant·e (vous lui 
+- [x] La procédure d’installation est validée par l’encadrant·e (vous lui 
       expliquez la procédure et lui montrez votre site WordPress dans votre 
       navigateur)
-- [ ] Vous avez discuté avec l’encadrant·e des éléments dont WordPress avait 
+- [x] Vous avez discuté avec l’encadrant·e des éléments dont WordPress avait 
       besoin pour fonctionner
-- [ ] Vous êtes en mesure de dire ce que sont `LAMP`, `MAMP`, `WAMP` et `XAMP`
+- [x] Vous êtes en mesure de dire ce que sont `LAMP`, `MAMP`, `WAMP` et `XAMP`
 
 
 # Troisième partie : installation distante
