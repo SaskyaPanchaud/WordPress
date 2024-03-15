@@ -23,13 +23,12 @@ La principale différence entre les deux versions de WordPress est le mode d'hé
 
 ### Procédure d'installation
 
-J'ai suivi la procédure suivante pour installer WordPress : [Lien]https://ubuntu.com/tutorials/install-and-configure-wordpress#1-overview.
+J'ai suivi cette [procédure](https://ubuntu.com/tutorials/install-and-configure-wordpress#1-overview) pour installer WordPress.
 
-# TODO
+# Aspects théoriques
 
-### Aspects théoriques
+- L / M / W / X -AMP : Linux / Mac / Windows / Cross-Plateform - Apache, MySQL et PHP -> [théorie](https://www.geeksforgeeks.org/what-is-the-difference-between-lamp-stack-mamp-stack-and-wamp-stack/)
 
-- LAMP :
-- MAMP :
-- WAMP :
-- XAMP :
+# Questions
+
+1) Pourquoi un post est directement accessible par tout le monde dès qu'on le publie ?
