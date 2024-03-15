@@ -97,8 +97,8 @@ reproductible !
 Ajoutez la procédure d’installation à votre document et répondez à cette 
 question : « De quoi WordPress a-t-il besoin pour fonctionner ? ».
 
-- [ ] J’explique comment je l’ai installé sur ma machine
-- [ ] J’ai listé les éléments dont WordPress avait besoin pour fonctionner
+- [x] J’explique comment je l’ai installé sur ma machine
+- [x] J’ai listé les éléments dont WordPress avait besoin pour fonctionner
 
 
 ## Validation de la deuxième partie
@@ -109,7 +109,7 @@ stage et discutez de votre installation avec elle.
 - [ ] La procédure d’installation est validée par l’encadrant·e (vous lui 
       expliquez la procédure et lui montrez votre site WordPress dans votre 
       navigateur)
-- [ ] Vous avez disctué avec l’encadrant·e des éléments dont WordPress avait 
+- [ ] Vous avez discuté avec l’encadrant·e des éléments dont WordPress avait 
       besoin pour fonctionner
 - [ ] Vous êtes en mesure de dire ce que sont `LAMP`, `MAMP`, `WAMP` et `XAMP`
 
