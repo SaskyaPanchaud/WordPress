@@ -18,12 +18,13 @@ La principale différence entre les deux versions de WordPress est le mode d'hé
 
 - PHP = Hypertext Preprocessor : langage de scripts généraliste pouvant être facilement intégré au HTML 
 - Apache : serveur web -> écoute les requêtes émises par les navigateurs, cherche la page demandée et la renvoie
-- WordPress (saskya / pr1s7C0h_o$e)
 - MySQL : serveur de base de données relationnelles (wordpress)
 
 ### Procédure d'installation
 
 J'ai suivi cette [procédure](https://ubuntu.com/tutorials/install-and-configure-wordpress#1-overview) pour installer WordPress.
+
+WordPress est accessible [ici](http://localhost/wp-admin/index.php) avec les identifiants suivants : saskya / pr1s7C0h_o$e.
 
 # Aspects théoriques
 
