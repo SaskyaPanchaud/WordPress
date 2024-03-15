@@ -77,12 +77,12 @@ auteur, etc.). Répondez également aux questions : « WordPress est-il beaucoup
 utilisé ? », « Combien coûte WordPress ? » et « Quelle est la différence entre
 wordpress.com et wordpress.org » en développant vos réponses. 
 
-- [ ] J’ai écrit le paragraphe « Qu’est-ce que WordPress »
-- [ ] J’ai répondu à la question « WordPress est-il beaucoup utilisé ? »
-- [ ] J’ai répondu à la question « Combien coûte WordPress ? »
-- [ ] J’ai répondu à la question « Quelle est la différence entre wordpress.com 
+- [x] J’ai écrit le paragraphe « Qu’est-ce que WordPress »
+- [x] J’ai répondu à la question « WordPress est-il beaucoup utilisé ? »
+- [x] J’ai répondu à la question « Combien coûte WordPress ? »
+- [x] J’ai répondu à la question « Quelle est la différence entre wordpress.com 
       et wordpress.org »
-- [ ] Je sais ce qu’est un CMS
+- [x] Je sais ce qu’est un CMS
 
 
 # Deuxième partie : installation locale
