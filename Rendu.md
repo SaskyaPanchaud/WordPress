@@ -26,14 +26,18 @@ J'ai suivi cette [procédure](https://ubuntu.com/tutorials/install-and-configure
 
 WordPress est accessible [ici](http://localhost/wp-admin/index.php) avec les identifiants suivants : saskya / pr1s7C0h_o$e.
 
-### Troisième partie
+## Troisième partie
+
+### Procédure d’installation de WordPress sur une VM distante
 
 **TODO**
 
-# Aspects théoriques
+# Remarques
+
+## Aspects théoriques
 
 - L / M / W / X -AMP : Linux / Mac / Windows / Cross-Plateform - Apache, MySQL et PHP : ce sont différents types de *Web application stack* (compilation de logiciels utilisés ensemble pour créer des sites / applications web). Les fondements de cette pile sont un système d'opération, un serveur web, une base de données et un interpéteur de scripts. Pour plus d'informations, aller [ici](https://www.geeksforgeeks.org/what-is-the-difference-between-lamp-stack-mamp-stack-and-wamp-stack/).
 
-# Questions
+## Questions
 
 1) Pourquoi un post est directement accessible par tout le monde dès qu'on le publie ?
