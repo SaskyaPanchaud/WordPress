@@ -89,16 +89,9 @@ Si mot de passe simple (p. ex. : f71dbe52628a3f83a77ab494817525c6) alors facilem
 # To Do List
 
 1) phpMyAdmin à mettre en place pour pouvoir afficher graphiquement la base de données via une interface web
+https://ubuntu.com/server/docs/how-to-install-and-configure-phpmyadmin
+*wordpress* comme mot de passe pour phpmyadmin
 
 # Questions
 
 1) Commande *mysql* pour accéder à quoi ? Pourquoi faisable depuis n'importe où dans terminal ? Possible d'accéder à plusieurs bases de données de cette manière ? Chaque base de données a son utilisateur, son mot de passe et son nom pour s'y connecter ? Toutes ces données sont stockées où sur mon ordinateur ?
-2) Si *f71dbe52628a3f83a7**8**ab494817525c6* à la place de *f71dbe52628a3f83a77ab494817525c6*, qu'est-ce qui change concrétement ?
-3) - 1er affichage des données utilisateurs : $P$B21fpGTnSjxOr.PdpKNG1Gzj/iq0KP1
-   - changement du mot de passe (voir commandes plus haut)
-   - 2eme affichage des données utilisateurs : ffb45cb5f67c7a8321a86e917b4d670f (impossible à déchiffrer)
-   - fermeture du terminal -> même hash
-   - connexion sur WordPress -> hash différent : $P$B1JG4.JjSLojGTlJYKtGbmmPhTKF0e
-   - Pourquoi ?
-   - Et pourquoi pas le même hash que celui plus haut alors que même mot de passe ?
-   - Raison : connexion ajoute du sel ?
