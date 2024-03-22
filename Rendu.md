@@ -45,8 +45,9 @@ Résumé de la procédure :
    </VirtualHost>
    ```
 4) création de la base de données et d'un utilisateur via `sudo mysql -u root` (user = saskya et mdp = wordpress) et activation de la base de données
-5) configuration de WordPress pour utiliser la base de données dans */srv/www/wordpress/wp-config.php*
-6) installation de WordPress et accessible [ici](http://localhost/wp-admin/index.php) avec les identifiants suivants : saskya / pr1s7C0h_o$e
+   **FIXME : u = wordpress ou u = saskya ?? Pour se connecter à phpmyadmin, avec wordpress et vu dans wp-config.php**
+6) configuration de WordPress pour utiliser la base de données dans */srv/www/wordpress/wp-config.php*
+7) installation de WordPress et accessible [ici](http://localhost/wp-admin/index.php) avec les identifiants suivants : saskya / pr1s7C0h_o$e
 
 ## Troisième partie
 
@@ -90,8 +91,10 @@ Si mot de passe simple (p. ex. : f71dbe52628a3f83a77ab494817525c6) alors facilem
 
 1) phpMyAdmin à mettre en place pour pouvoir afficher graphiquement la base de données via une interface web
 https://ubuntu.com/server/docs/how-to-install-and-configure-phpmyadmin
-*wordpress* comme mot de passe pour phpmyadmin
+*wordpress* comme mot de passe pour phpmyadmin (user aussi wordpress)
 
 # Questions
 
-1) Commande *mysql* pour accéder à quoi ? Pourquoi faisable depuis n'importe où dans terminal ? Possible d'accéder à plusieurs bases de données de cette manière ? Chaque base de données a son utilisateur, son mot de passe et son nom pour s'y connecter ? Toutes ces données sont stockées où sur mon ordinateur ?
+1) Voir FIXME
+2) Commande *mysql* pour accéder à quoi ? Pourquoi faisable depuis n'importe où dans terminal ? Possible d'accéder à plusieurs bases de données de cette manière ? Chaque base de données a son utilisateur, son mot de passe et son nom pour s'y connecter ? Toutes ces données sont stockées où sur mon ordinateur ? Wordpress 
+peut accéder à plusieurs base de données ou un site = une base de données ? 
